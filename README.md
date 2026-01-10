@@ -106,26 +106,26 @@ To run this application locally on your machine, follow these steps:
 
 Clone the repository:
 
-```text
+```bash
 git clone [https://github.com/your-username/disaster-analysis-portal.git](https://github.com/your-username/disaster-analysis-portal.git)
 cd disaster-analysis-portal
 ```
 
 ## Create a virtual environment (Recommended):
 
-```text
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 ## Install dependencies:
 
-```text
+```bash
 pip install -r requirements.txt
 ```
 
 ## Run the application:
 
-```text
+```bash
 streamlit run app_entry.py
 ```
 
@@ -135,12 +135,12 @@ streamlit run app_entry.py
 - Modifying Thresholds: Color scale thresholds can be adjusted in the color_scale function within main.py and probed.py to reflect different sensitivity levels.
 
 ## ❓ Troubleshooting
-```text
+```bash
 FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
 ```
 - *Cause:* Running the script from the wrong directory level.
 - *Solution:* Always run the app using streamlit run app_entry.py from the root directory. The scripts use os.path to find relative files, but the entry point must be consistent.
-```text
+```bash
 ModuleNotFoundError: No module named 'geopandas'
 ```
 - *Cause:* Missing dependencies.
