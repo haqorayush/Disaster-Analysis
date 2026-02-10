@@ -165,3 +165,7 @@ This application was created by Ayush Dwivedy during the internship period of Au
 The code in this repository is provided for educational and portfolio purposes.
 Data Source: All casualty and district data is sourced from the Uttar Pradesh State Disaster Management Authority.
 Note: Ensure sensitive government data is not exposed in public repositories unless authorized. 
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://www.google.com/search?q=https://github.com/haqorayush">haqorayush</a></sub>
+</div>
